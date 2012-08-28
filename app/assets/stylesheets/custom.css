@@ -108,6 +108,40 @@ td.sidebar {
     margin-bottom: -15px;
 }
 
+div.field, div.actions {
+    margin-bottom: 10px;
+}
+
+.field_with_errors {
+    display: table;
+    margin: -10px 0 -3px 0;
+}
+
+.field_with_errors label {
+    color: #CC0000;
+}
+
+#error_explanation {
+    width: 400px;
+    border: 2px solid #c00;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+    text-align: left;
+    font-weight:bold;
+    font-size: 100%;
+    background-color: #c00;
+    color: #fff;
+    padding: 2px 0px 2px 10px;
+}
+
+#error_explanation ul li {
+    font-size: 85%;
+    list-style: square;
+}
+
 /* Footer */
 
 footer {
