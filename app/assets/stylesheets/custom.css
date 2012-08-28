@@ -84,6 +84,30 @@ a.signup_button {
     padding: 20px;
 }
 
+/* user show page */
+
+table.profile {
+    width:100%;
+}
+
+td.main {
+    width:60%;
+    padding: 1em;
+    vertical-align:top;
+}
+
+td.sidebar {
+    width:40%;
+    padding: 1em;
+    vertical-align:top;
+    background:#cacaca;
+}
+
+.profile img.gravatar {
+    border: 1px solid #999;
+    margin-bottom: -15px;
+}
+
 /* Footer */
 
 footer {
