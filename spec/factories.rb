@@ -7,3 +7,9 @@ FactoryGirl.define do
   end
 
 end
+
+# FactoryGirl.define do
+#  sequence :email do |n|
+#    "person-#{n}@example.com"
+#  end
+# end

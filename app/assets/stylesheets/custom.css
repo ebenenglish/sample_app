@@ -108,6 +108,8 @@ td.sidebar {
     margin-bottom: -15px;
 }
 
+/* forms */
+
 div.field, div.actions {
     margin-bottom: 10px;
 }
@@ -140,6 +142,16 @@ div.field, div.actions {
 #error_explanation ul li {
     font-size: 85%;
     list-style: square;
+}
+
+/* user list */
+
+ul.users_list {
+    margin-top: 1em;
+}
+
+.users_list li {
+    list-style:none;
 }
 
 /* Footer */

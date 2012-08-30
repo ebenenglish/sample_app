@@ -25,6 +25,8 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rspec-rails', '>=2.9.0'
+  gem 'faker'
+  gem 'will_paginate'
 end
 
 group :test do
